@@ -1,0 +1,157 @@
+html{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+    margin: 0;
+}
+body {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f9fee7;
+    position: relative;
+}
+
+@font-face {
+    font-family: CoffeeSoda;
+    src: url(./assets/fonts/coffee_soda/CoffeeSoda.ttf) format(truetype);
+    font-weight: 100;
+}
+@font-face {
+    font-family: RedHands;
+    src: url(./assets/fonts/kg_red_hands/KGRedHands.ttf) format(truetype);
+    font-weight: 100;
+}
+@font-face {
+    font-family: BubbleBobble;
+    src: url(./assets/fonts/bubble_bobble/BubbleBobble.ttf) format(truetype);
+    font-weight: 100;
+}
+@font-face {
+    font-family: SunshineTropical;
+    src: url(./assets/fonts/sunshine_tropical/SunshineTropical.ttf) format(truetype);
+    font-weight: 100;
+}
+@font-face {
+    font-family: ChickenPie;
+    src: url(./assets/fonts/chicken_pie/CHICKENPie.ttf) format(truetype);
+    font-weight: 100;
+}
+@font-face {
+    font-family: JandaManatee;
+    src: url(./assets/fonts/janda_manatee/JandaManateeSolid.ttf) format(truetype);
+    font-weight: 100;
+}
+@font-face {
+    font-family: JandaManateeBubble;
+    src: url(./assets/fonts/janda_manatee/JandaManateeBubble.ttf) format(truetype);
+    font-weight: 100;
+}
+
+h1 {
+    color: #fff163;
+    font-family: CoffeeSoda;
+    font-size: 100px;
+    margin: 0;
+}h2 {
+    color: #fff163cc;
+    font-family: BubbleBobble;
+    font-size: 30px;
+    font-weight: 50;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    font-family: JandaManateeBubble;
+    color: #FFF163;
+}
+a {
+    color: #fff163;
+    font-family: BubbleBobble;
+}
+img {
+    width: 100%;
+}
+p {
+    font-family: JandaManatee;
+    display: flex;
+    align-items: center;
+    color: #FFF163;
+    padding: 0;
+    margin: 0;
+}
+input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+input::placeholder {
+    font-family: RedHands;
+    font-size: 10px;
+    color: #5a054850;
+}
+input[type="text"] {
+    font-family: RedHands;
+    font-size: 10px;
+    color: #5a0548;
+}
+input[type="tel"] {
+    font-family: Caveat;
+    color: #5a0548;
+}
+input[type="email"] {
+    font-family: Caveat;
+    color: #5a0548;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    padding: 0;
+    width: 100%;
+    height: 90%;
+}
+label {
+    font-family: BubbleBobble;
+    font-size: 20px;
+    color: #FFF163;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 2px;
+    background-color: #303d16;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 200px;
+    height: 40px;
+}
+input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+input::placeholder {
+    font-family: JandaManatee;
+    color: #5a054872;
+}
+input[type="text"] {
+    font-family: JandaManatee;
+    color: #5a0548;
+}
+input[type="tel"] {
+    font-family: JandaManatee;
+    color: #5a0548;
+}
+input[type="email"] {
+    font-family: JandaManatee;
+    color: #5a0548;
+}

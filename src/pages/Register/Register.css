@@ -1,0 +1,114 @@
+.Cajas {
+    display: flex;
+    justify-content: center;
+}
+.CajaRegistro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5A6C37;
+    border: solid #303d16 10px;
+    border-radius: 20px;
+    width: 1000px;
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    padding: 0;
+    width: 1000px;
+    height: 250px;
+}
+.CajaRegistrarseCompleta {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.TituloForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303d16;
+    margin: 0;
+    padding: 5px;
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+}
+.TituloForm h3 {
+    color: #FFF163;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+}
+.Register {
+    display: flex;
+    height: 200px;
+}
+.CajaI {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 100%;
+}
+.CajaR {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 500px;
+    height: 100%;
+}
+.CajaInput {
+    background-color: #5a6c37;
+    border: solid #303d16 2px;
+    height: 40px;
+    width: 450px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 0;
+}
+.Cumple {
+    background-color: #5a6c37;
+    justify-content: center;
+    align-items: center;
+    border: solid #303d16 2px;
+    width: 450px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    margin: 5px;
+    padding: 0;
+}
+.Enviar {
+    background-color: #5A6C37;
+    border: solid #303d16 2px;
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+button {
+    font-family: BubbleBobble;
+    color: #FFF163;
+    font-size: 30px;
+    background-color: #303d16;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px;
+}

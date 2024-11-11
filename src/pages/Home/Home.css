@@ -1,0 +1,46 @@
+.CajaMVyOPrincipal {
+    display: flex;
+    justify-content: space-around;
+}
+.CajaMVyO {
+    background-color: #5A6C37;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    padding: 20px;
+    width: 400px;
+    border: solid #303d16 10px;
+    border-radius: 20px;
+}
+.CajaTituloMVyO {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 5px;
+    background-color: #303d16;
+    border-radius: 30px;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+}
+.ImagenMVyO {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+}
+.ImagenMVyO img {
+    padding: 0;
+    margin: 0;
+    width: 62px;
+}
+.CajaTexto {
+    width: 250px;
+    text-align: justify;
+    font-size: 20px;
+}

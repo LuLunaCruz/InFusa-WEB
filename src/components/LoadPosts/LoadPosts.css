@@ -1,0 +1,67 @@
+.PostCompleto {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+.CajaDivisora {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5A6C37;
+    border: solid #303d16 2px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.TituloSolucion {
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303d16;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.TituloSolucion h2{
+    color: #fff263;
+}
+.Caja1 {
+    background-color: #5a6c37;
+    border: solid #303d16 2px;
+    border-radius: 10px;
+    width: 1000px;
+    margin: 5px;
+    display: flex;
+}
+.tittledescription {
+    background-color: #303d16;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    padding: 10px;
+    justify-content: end;
+}
+.Map {
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+}
+.BotonSolucion{
+    background-color: #303d16;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+}
+.SinPost {
+    background-color: #5A6C37;
+    border: solid #303d16 2px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

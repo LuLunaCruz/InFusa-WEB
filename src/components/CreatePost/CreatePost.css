@@ -1,0 +1,180 @@
+.Cajas {
+    display: flex;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    padding: 0;
+    width: 1000px;
+    height: 250px;
+}
+.CajaInput {
+    background-color: #5a6c37;
+    border: solid #303d16 2px;
+    height: 20px;
+    width: 450px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 0;
+}
+button {
+    font-family: BubbleBobble;
+    color: #FFF163;
+    font-size: 30px;
+    background-color: #5A6C37;
+    border: solid #303d16 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.CajaEscribirComentario {
+    display: flex;
+    flex-direction: column;
+    background-color: #5a6c37;
+    padding: 10px;
+    gap: 10px;
+    border: solid #303d16 2px;
+    border-radius: 10px;
+    width: 900px;
+}
+.SaludoUser {
+    display: flex;
+    align-items: center;
+    background-color: #303d16;
+    border-radius: 80px;
+    padding: 0;
+    width: 99%;
+    height: 50px;
+}
+.SaludoUser h2 {
+    color: #FFF163;
+    font-family: JandaManateeBubble;
+    font-size: 40px;
+}
+.ImagenSaludoUser {
+    display: flex;
+    align-items: center;
+    margin-right: 2px;
+    width: 50px;
+    height: 50px;
+}
+.CajaComentarioUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    background-color: #5a6c37;
+    border: solid #303d16 2px;
+    border-radius: 10px;
+    margin-top: 2px;
+    width: 99%;
+    box-sizing: border-box;
+}
+.CajaUbicacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.CajaUtilidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid #303d16 2px;
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px;
+    width: 99%;
+    box-sizing: border-box;
+}
+.CajaEnviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.Enviar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #303d16;
+    padding: 0;
+    width: 300px !important;
+    border-radius: 10px;
+    margin: 2px;
+}
+.CajaSendImg {
+    width: 50px;
+    margin: 0;
+    height: 50px;
+    padding: 0;
+}
+#description {
+    height: 100px;
+}
+.CajaMap {
+    margin: 0;
+    height: 90%;
+    width: 600px;
+    padding: 0;
+}
+.Ubi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: solid #303d16 10px;
+    border-radius: 10px;
+    height: 150px;
+}
+.BotonUbi {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    font-size: 30px;
+    border: none;
+    height: 150px;
+
+}
+.BotonUbi p {
+    font-family: ChickenPie;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+.BotonUbi .PermisosTexto {
+    font-family: ChickenPie;
+    font-size: 10px;
+    color: #fff26378;
+    margin: 0;
+    padding: 0;
+}
+.LatLong {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    background-color: #303d16;
+    border-radius: 10px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+.LatLong p {
+    font-family: JandaManateeBubble;
+}
+.EnvioCorrecto p {
+    font-family: JandaManatee  !important;
+    font-weight: 10;
+}
