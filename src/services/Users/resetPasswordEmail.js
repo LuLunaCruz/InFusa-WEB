@@ -4,7 +4,7 @@ export const resetPasswordEmail = async (email) => {
     try {
         const body = {
             email,
-            frontBaseUrl: "http://localhost:5173"
+            frontBaseUrl: "https://infusa.netlify.app"
         }
         const res = await axiosInstance.post("usuarios/reset_password", body)
         return { success: true, data: res.data };
